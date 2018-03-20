@@ -62,6 +62,7 @@ public class GetJSON extends AsyncTask<Void,Void,Void> {
     }
 
     public String convertir(String f){
+        
         Float c= (5*(Float.parseFloat(f)-32))/9;
         return c+"";
     }
